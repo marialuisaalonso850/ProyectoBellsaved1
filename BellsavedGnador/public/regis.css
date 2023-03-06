@@ -1,0 +1,161 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;500&family=Roboto:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.full-page{
+    height: 100%;
+    width: 100%;
+    background-image: url(../public/img/PUEDESER.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+     
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 70px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+
+nav ul li a:hover{
+    color: rgba(0, 255, 34, 0.418);
+}
+
+a{
+    text-decoration: none;
+    color:  rgba(252, 248, 249, 0.993);
+    font-size: 28px;
+}
+
+
+.input-group-login{
+    top: 150px;
+    position: absolute;
+    max-width: 350px;
+    transition: .5s;
+    background:  rgba(0, 0, 0, 0.671);
+    margin: 120px auto;
+    padding: 3.5em 1.5em;
+    border-radius:  50px;
+    margin-left: 300px;
+    
+}
+
+.input-group-register{
+    top: 105px;
+    position: absolute;
+    max-width: 370px;
+    background:  rgba(0, 0, 0, 0.671);
+    margin: 150px auto;
+    padding: 2.5em 2.8em;
+    border-radius: 60px;
+    margin-left: 300px;
+
+}
+
+/*.form-container{
+    gap: 0;
+}*/
+
+.title{
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: .4em;
+    Color: #fff;
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+.form_paragraph{
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin-left: auto;
+
+}
+
+.form-link{
+    font-weight: 400;
+    color: rgb(226, 17, 45);
+    font-size: 20px;
+}
+
+
+
+.input-field{
+    width: 100%;
+    font-size: 1rem;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top:0;
+    border-right: 0;
+    border-bottom: 1px solid rgb(233, 204, 204);
+    outline: none;
+    background: transparent;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    
+}
+span{
+    color:rgb(241, 238, 238);
+    font-size: 15px;
+    bottom: 68px;
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+
+.check-box{
+    margin: 20px 10px 25px 0;
+}
+
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: #849488;
+    border:0;
+    font-size: 19px;
+    outline: none;
+    border-radius: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(29, 29, 31);
+    
+}
+
+#register{
+    left: 450px;
+}

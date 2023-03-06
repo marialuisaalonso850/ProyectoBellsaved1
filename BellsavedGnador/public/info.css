@@ -1,0 +1,46 @@
+body{
+    background-image: url(../images/oficiales.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 80%;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 700px;
+}
+
+.inicio{
+    margin-bottom: 20px;
+    top: -87px;
+    position: absolute;
+    max-width: 700px;
+    transition: .5s;
+    background:  rgba(0, 0, 0, 0.671);
+    margin: 120px auto;
+    padding: 3.5em 1.5em;
+    border-radius:  50px;
+    margin-left: -9px;
+}
+
+.fecha{
+    color: #fff;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+
+.parrafo {
+    border-left: 5px solid rgb(252, 199, 24);
+    padding-left: 5px;
+    color: #fff;
+}
+p{
+    color: #fff;
+}
+
+h2{
+    font-size: 2.0rem;
+    color:#fff;
+}

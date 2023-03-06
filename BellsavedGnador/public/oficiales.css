@@ -1,0 +1,60 @@
+.heading{
+    text-align: center;
+    font-size: 5rem;
+}
+.line{
+    width: 170px;
+    height: 5px;
+    background-color: #0307fcb6;;
+    margin: 15px auto;
+    border-radius: 7px;
+}
+
+.oficial .box-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap: 2rem
+
+}
+
+.oficial .box-container .box{
+    text-align: center;
+    background: #fff;
+    border-radius: .5rem;
+    border: .2rem solid #0307fcb6;
+    box-shadow: .5rem .5rem 0 gray;
+    padding: 2rem;
+}
+
+.oficial .box-container .box img{
+    height: 20rem;
+    border-radius: .5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.oficial .box-container .box h3{
+    color: black;
+    font-size: 2.5rem;
+}
+
+.oficial .box-container .box span{
+    color: gray;
+    font-size: 1.5rem;
+}
+
+.oficial .box-container .box .share{
+    padding-top: 2rem;
+
+}
+
+
+.oficial .box-container .box .share a:hover{
+    background: gray ;
+
+}
+
+.share img{
+    padding-top: 24px;
+    width: 45px;
+    
+}

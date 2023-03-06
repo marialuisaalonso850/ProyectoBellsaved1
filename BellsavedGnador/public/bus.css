@@ -1,0 +1,313 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+.hero{
+    height: 100vh ;
+    width: 100%;
+    background-image: url(../public/img/esta\ es.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo{
+    color: #fff;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span{
+    color: blue;
+
+}
+
+nav ul li{
+    list-style-type:  none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a{
+    color:#fff;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: #fff;
+    transition: .4s;
+}
+
+.btn{
+    background-color: blue;
+    color:#fff;
+    text-decoration: none;
+    border: 3px solid transparent;
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 10px 25px;
+}
+
+
+.content{
+    position: absolute;
+    top: 290px;
+    left: 320px;
+    transform: translate(-50%);
+}
+
+h1{
+    color: #bababa;
+    margin: 20px 0 20px;
+    font-size: 20px;
+    
+}
+
+h3{
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color:white;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.newslatter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newslatter form input:first-child{
+    display: inline-block;
+   
+    padding: 14px 130px 14px 15px;
+    border: 2px solid blue;
+    outline: none;
+    border-radius: 30px;
+
+}
+
+.newslatter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: blue;
+    color: #fff;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top:6px;
+    right: 6px;
+}
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #858585;
+}
+
+.about img{
+    height: auto;
+    width: 430px;
+}
+
+.about-text{
+    width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.about-text h2{
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.service{
+    background: #858585;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2{
+    font-size: 75px;
+    width: 1130px;
+    left: 250px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #050505;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+h5{
+    color: #fff;
+    font-size: 23px;
+    margin-bottom: 15px;
+
+}
+
+.pra p{
+    color:#ddb2dd;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.card .button{
+    background-color: blue;
+    color:#fff;
+    text-decoration: none;
+    border: 3px solid transparent;
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 9px 22px;
+}
+
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid blue;
+    cursor: pointer;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #a19191;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p:nth-child(1){
+    font-size: 30px;
+    color:#fff;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    color: #fff;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.end{
+    position:absolute;
+    color: blue;
+    bottom: 35px;
+    font-size: 14px;
+}
+.texto_usuario{
+    text-decoration: none;
+    list-style: none;
+    float: right;
+   margin-left: 100px;
+    font-size: 30px;
+    color:white;
+
+}
+.submit-btn{
+   
+  
+    background-color: #000;
+    color: white;
+    border: 2px solid white;
+    margin-top: 20px;
+    border-radius: 12px;
+    margin-left: 20px;
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+    margin-top: 0;
+
+}
+.input-group-register{
+    display: flex;
+    margin: 0;
+   width: 500px;
+}
+.texto{
+    width: 400px;
+}
+.palabra {
+    float: right;
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -48px;
+    margin-right: -70px;
+
+   
+    color:#fff;
+    text-decoration: none;
+    border: 3px solid transparent;
+    border-radius: 30px;
+    font-weight: bold;
+  
+
+
+
+
+}
+.clear{
+    clear: both;
+}

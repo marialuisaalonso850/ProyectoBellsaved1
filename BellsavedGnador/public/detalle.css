@@ -1,0 +1,42 @@
+nav.item{
+    color: rgb(24, 24, 109);
+}
+.text-center{
+    border-bottom: 34px;
+    border: 10px rgb(3, 227, 238);
+    border-radius: 30px;
+}
+
+
+table .boton{
+    text-decoration: none;
+    border-bottom: 32rem;
+}
+
+.lulu{
+    border-radius: 30px;
+    height: 40px;
+    border: 12px gray;
+    background-color:rgba(0, 0, 147, 0.544);
+}
+.minion{
+    text-align: center;
+    
+}
+h3{
+  float:right;  
+  margin-right:200px;
+  width: 600px;
+  height: 200px;
+  margin-top: -250px
+  
+}
+.clear{
+    clear: both;
+}
+.pr{
+    width: 500px;
+    height: 500px;
+    float: right;
+    margin-right:900px;
+}
